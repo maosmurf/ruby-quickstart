@@ -1,5 +1,5 @@
-def hi
-  puts "Hello World"
+def hi(name)
+  puts "Hello #{name}"
 end
 
-hi
+hi("Adam")
