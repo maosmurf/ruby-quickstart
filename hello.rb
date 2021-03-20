@@ -1,5 +1,5 @@
-def hi(name)
-  puts "Hello #{name.capitalize}"
-end
+require_relative 'greeter'
 
-hi "adam"
+greeter = Greeter.new "Adam"
+
+greeter.hi
